@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="orderbook.cpp">
+      <Filter>structures</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="networking">
+      <UniqueIdentifier>{0522a73a-7631-42ea-819e-109c605622d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="structures">
+      <UniqueIdentifier>{81e94611-4d97-4bb7-9753-c9ded171e3c2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="orderbook.h">
+      <Filter>structures</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
