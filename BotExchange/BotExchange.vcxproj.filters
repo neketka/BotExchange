@@ -15,8 +15,14 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="orderbook.h">
+    <ClInclude Include="orderbook.hpp">
       <Filter>structures</Filter>
+    </ClInclude>
+    <ClInclude Include="concurrentqueue.hpp">
+      <Filter>structures</Filter>
+    </ClInclude>
+    <ClInclude Include="packet.hpp">
+      <Filter>networking</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

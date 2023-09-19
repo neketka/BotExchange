@@ -139,7 +139,9 @@
     <ClCompile Include="orderbook.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="orderbook.h" />
+    <ClInclude Include="concurrentqueue.hpp" />
+    <ClInclude Include="orderbook.hpp" />
+    <ClInclude Include="packet.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
