@@ -137,11 +137,13 @@
   <ItemGroup>
     <ClCompile Include="main.cpp" />
     <ClCompile Include="orderbook.cpp" />
+    <ClCompile Include="rangelock.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="concurrentqueue.hpp" />
     <ClInclude Include="orderbook.hpp" />
     <ClInclude Include="packet.hpp" />
+    <ClInclude Include="rangelock.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

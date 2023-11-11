@@ -5,6 +5,9 @@
     <ClCompile Include="orderbook.cpp">
       <Filter>structures</Filter>
     </ClCompile>
+    <ClCompile Include="rangelock.cpp">
+      <Filter>structures</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="networking">
@@ -24,5 +27,6 @@
     <ClInclude Include="packet.hpp">
       <Filter>networking</Filter>
     </ClInclude>
+    <ClInclude Include="rangelock.hpp" />
   </ItemGroup>
 </Project>
